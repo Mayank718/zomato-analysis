@@ -38,7 +38,7 @@ pd.set_option('display.width', 200)
 
 # 1) Load data (change path if needed)
 # -----------------------
-path = "/content/final_cleaned_zomato_data.xlsx"
+path = "final_cleaned_zomato_data.xlsx"
 try:
     data = pd.read_excel(path, engine="openpyxl")
     print("Loaded:", path)
